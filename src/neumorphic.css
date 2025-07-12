@@ -1,0 +1,49 @@
+/* Global Neumorphic Theme: Luminous Blue & Grey */
+body {
+  background: #e3efff; /* pale blue-grey */
+  font-family: 'Segoe UI', sans-serif;
+  color: #222e40;
+}
+
+/* Card-like containers */
+.neu-card {
+  background: #e3efff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #b2c7e6, -10px -10px 30px #ffffff;
+  padding: 20px;
+}
+
+/* Inputs */
+.neu-input {
+  background: #e3efff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  box-shadow: inset 4px 4px 6px #b5cae7, inset -4px -4px 6px #f5faff;
+  margin: 10px 0;
+  color: #222e40;
+  font-size: 16px;
+}
+
+/* Buttons */
+.neu-btn {
+  background: linear-gradient(90deg, #4f8cff 0%, #2196f3 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 6px 6px 14px #b2c7e6, -6px -6px 14px #f5faff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.neu-btn:hover {
+  background: linear-gradient(90deg, #2196f3 0%, #4f8cff 100%);
+}
+
+/* For luminous blue highlight borders (optional for active states) */
+.neu-active {
+  box-shadow: 0 0 0 2px #4f8cff, 10px 10px 30px #b2c7e6, -10px -10px 30px #ffffff;
+}
